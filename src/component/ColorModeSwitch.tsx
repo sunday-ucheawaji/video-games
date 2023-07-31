@@ -8,8 +8,12 @@ function ColorModeSwitch() {
         colorScheme="green"
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
+        h="2rem"
+        mt={1}
       />
-      <Text>Dark Mode</Text>
+      <Text h="2rem" m="0">
+        Dark Mode
+      </Text>
     </HStack>
   );
 }
