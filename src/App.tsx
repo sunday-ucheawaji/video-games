@@ -19,8 +19,12 @@ function App() {
   return (
     <Grid
       templateAreas={{
-        base: `"nav" "main"`,
-        lg: `"nav nav" "aside main"`, // larger than 1024px
+        base: `"nav" 
+               "main"
+               `,
+        lg: `"nav nav" 
+             "aside main"
+             `, // larger than 1024px
       }}
       templateColumns={{
         base: "1fr",
@@ -61,3 +65,5 @@ function App() {
 }
 
 export default App;
+
+const obj: { [key: string]: string } = { name: "sunday" };

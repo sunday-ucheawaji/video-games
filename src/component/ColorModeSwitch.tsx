@@ -10,8 +10,9 @@ function ColorModeSwitch() {
         onChange={toggleColorMode}
         h="2rem"
         mt={1}
+      
       />
-      <Text h="2rem" m="0">
+      <Text whiteSpace={"nowrap"} h="2rem" m="0">
         Dark Mode
       </Text>
     </HStack>
