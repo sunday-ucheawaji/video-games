@@ -23,6 +23,7 @@ function SearchInput({ onSearch }: Props) {
           borderRadius={20}
           placeholder="Search Games"
           variant={"filled"}
+          id="search"
         />
       </InputGroup>
     </form>
